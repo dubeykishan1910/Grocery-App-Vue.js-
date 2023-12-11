@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap");
+
+
+:root{
+  --orange:#ff7800;
+  --black:#130f40;
+  --light-color:#666;
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  --border:.2rem solid rgba(0,0,0,.1);
+  --outline:.1rem solid rgba(0,0,0,.1);
+  --outline-hover: .2rem solid #130f40;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 0.938rem;
+  background-color: #eee;
+}
+/* section {
+
+  padding-bottom: 3.5rem;
+} */
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  border: .2rem solid #130f40;
+  color: #130f40;
+  cursor: pointer;
+  background: none;
+  transition: all .2s ease;
+}
+.btn:active{
+  transform:scale(0.96)
+}
+.btn:hover {
+  background-color: #ff7800;
+  color: #fff;
+}
+
+
+.heading{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  color: #130f40;
+}
+.heading span{
+  background-color: orange;
+  color: #fff;
+  display: inline-block;
+  padding: .5rem 3rem;
+  clip-path: polygon(100% 0, 94% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+}
+
+
+ul {
+    list-style: none;
+  }
+  li{
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #362727;
+    font-size: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

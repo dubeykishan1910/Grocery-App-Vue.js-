@@ -1,0 +1,152 @@
+{
+  "api1": [
+    {
+      "id": 1,
+      "json": "json-server --watch data.json",
+      "title": "orange",
+      "price": "24.00",
+      "quantity": "1",
+      "image": "orange.jpg"
+    },
+    {
+      "id": 2,
+      "title": "banana",
+      "price": "5.00",
+      "quantity": "1",
+      "image": "banana.png"
+    },
+    {
+      "title": "mango",
+      "price": "25",
+      "quantity": "qty : 1",
+      "image": "banana.png",
+      "id": 3
+    }
+  ],
+  "api2": [
+    {
+      "id": 101,
+      "name": "Fresh and organic",
+      "description": "Fresh food are good for life.",
+      "image": "banana.png"
+    },
+    {
+      "id": 102,
+      "name": "Free delivery",
+      "description": "Fresh food at home.",
+      "image": "food.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Easy payments",
+      "description": "Available at all platform of UPI.",
+      "image": "pay.png"
+    }
+  ],
+  "api3": {
+    "our": [
+      {
+        "id": 201,
+        "name": "Fresh Orange",
+        "price": "$4.99 - 0.99/-",
+        "image": "orange.jpg"
+      },
+      {
+        "id": 202,
+        "name": "Fresh banana",
+        "price": "$4.99 - 10.99/-",
+        "image": "banana.png"
+      },
+      {
+        "id": 203,
+        "name": "Fresh mango",
+        "price": "$4.99 - 10.99/-",
+        "image": "mango.png"
+      },
+      {
+        "id": 203,
+        "name": "Fresh Apple",
+        "price": "$1.99 - 10.99/-",
+        "image": "apple.png"
+      }
+    ]
+  },
+  "api4": [
+    {
+      "id": 301,
+      "name": "vegetables",
+      "offer": "upto 45% off",
+      "image": "vege.jpg",
+      "item": "Buy Vegetables",
+      "lin": "veg"
+    },
+    {
+      "id": 302,
+      "name": "Fresh Fruits",
+      "offer": "Upto 45% off",
+      "image": "frutes.jpg",
+      "item": "Buy fruits",
+      "lin": "fru"
+    },
+    {
+      "id": 303,
+      "name": "Dairy Products",
+      "offer": "Upto 45% off",
+      "image": "dari.jpg",
+      "item": "Buy Dairy items",
+      "lin": "dairy"
+    },
+    {
+      "id": 303,
+      "name": "Electronic Product",
+      "offer": "Upto 45% off",
+      "image": "elect.jpg",
+      "item": "Buy Electronic items",
+      "lin": "elect"
+    }
+  ],
+  "api5": [
+    {
+      "id": 401,
+      "name": "john deo",
+      "feedback": "EaseMart offers an exceptional selection of organic products with convenient online shopping and reliable doorstep delivery. Their quality and service consistently exceed expectations, making healthier choices effortlessly accessible.",
+      "image": "kd2.jpg",
+      "star": 4
+    },
+    {
+      "id": 402,
+      "name": "kishan dubey",
+      "feedback": "Freshness at its finest! EaseMart's vegetables are consistently crisp and vibrant, a testament to their commitment to quality. From leafy greens to exotic finds, their produce selection never disappoints.",
+      "image": "kd.png",
+      "star": 4
+    },
+    {
+      "id": 403,
+      "name": "jon sam",
+      "feedback": "EaseMart doesn't just excel in groceries; their electronic offerings are top-tier. I've purchased several gadgets, and each time, the quality and efficiency have been outstanding. Plus, their range suits both tech enthusiasts and everyday users.",
+      "image": "pa.jpeg",
+      "star": 4
+    },
+    {
+      "id": 403,
+      "name": "sam iron",
+      "feedback": "EaseMart isn't just about food – their household goods section is a gem. From cleaning supplies to kitchen essentials, every item I've bought has been of superior quality. It's my go-to for anything needed around the house!",
+      "image": "apple.png",
+      "star": 2
+    }
+  ],
+  "api6": [
+    {
+      "id": 501,
+      "name": "Potato per kg",
+      "price": "25.00",
+      "image": "poto.jpeg"
+    },
+    {
+      "id": 502,
+      "name": "tomato 1 kg",
+      "price": "59.00",
+      "image": "tomato.jpeg"
+    }
+  ]
+}
